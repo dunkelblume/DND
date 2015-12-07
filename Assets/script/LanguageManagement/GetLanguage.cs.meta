@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: cde453432541e6e4ca9869df991a8302
+timeCreated: 1449500499
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - txtBox: {instanceID: 0}
+  - titleImg: {instanceID: 0}
+  - perennialobject: {instanceID: 0}
+  - Script: {instanceID: 0}
+  - TitleEng: {instanceID: 0}
+  - TitleSpa: {instanceID: 0}
+  - TitleRus: {instanceID: 0}
+  - TitleFre: {instanceID: 0}
+  - TitleGer: {instanceID: 0}
+  - TitleIta: {instanceID: 0}
+  - TitlePor: {instanceID: 0}
+  - TitlePol: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
