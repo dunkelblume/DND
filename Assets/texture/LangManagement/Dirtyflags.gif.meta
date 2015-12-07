@@ -1,0 +1,155 @@
+fileFormatVersion: 2
+guid: ddaae6b6909cf9945a66356c42d146bb
+timeCreated: 1449514614
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: DEng_flag
+    21300002: DGer_flag
+    21300004: DIta_flag
+    21300006: DFre_flag
+    21300008: Dirtyflags_4
+    21300010: DRus_flag
+    21300012: DPol_flag
+    21300014: DPor_flag
+    21300016: DSpa_flag
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: DEng_flag
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 112
+        width: 116
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DGer_flag
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 110
+        width: 118
+        height: 81
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DIta_flag
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 109
+        width: 116
+        height: 83
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DFre_flag
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 110
+        width: 116
+        height: 81
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dirtyflags_4
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 114
+        width: 113
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DRus_flag
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 16
+        width: 118
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DPol_flag
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 17
+        width: 117
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DPor_flag
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 13
+        width: 115
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DSpa_flag
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 16
+        width: 120
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

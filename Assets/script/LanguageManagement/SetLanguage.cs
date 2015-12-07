@@ -4,15 +4,13 @@ using UnityEngine.UI;
 
 public class SetLanguage : MonoBehaviour {
 
-    public string info;                 //stores the Language
+    public string language;                 //stores the Language
     public Text txtBox;                 //sets the info in the textBox called Idioma(Language in spanish)
-
-    public perennialInfo Script;             //Loads the script that contains the perennial Objec
 
     public void OnPress()
     {
-        txtBox.text = info;             // puts the info in the textBox
-        Script.info = info;             //passes the info to the perennial Object
+        PlayerPrefs.SetString("Country",language);
+        txtBox.text = language;             // puts the info in the textBox
         Application.LoadLevel("Menu");          // to go to Menu
     }
 

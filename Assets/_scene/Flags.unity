@@ -124,7 +124,7 @@ RectTransform:
   - {fileID: 974860743}
   - {fileID: 723645379}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -329,7 +329,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
 --- !u!1 &581551949
 GameObject:
   m_ObjectHideFlags: 0
@@ -450,8 +450,8 @@ RectTransform:
   m_RootOrder: 4
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -97, y: -25}
-  m_SizeDelta: {x: 90, y: 50}
+  m_AnchoredPosition: {x: 257, y: 67}
+  m_SizeDelta: {x: 142, y: 104}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &633741348
 MonoBehaviour:
@@ -464,9 +464,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68890ea23f656ea489570a2e52c073df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  info: German
+  language: GER
   txtBox: {fileID: 1627172187}
-  Script: {fileID: 959984034}
 --- !u!114 &633741349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -642,9 +641,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68890ea23f656ea489570a2e52c073df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  info: Spanish
+  language: Spa
   txtBox: {fileID: 1627172187}
-  Script: {fileID: 959984034}
 --- !u!114 &705284529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -745,8 +743,8 @@ RectTransform:
   m_RootOrder: 5
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: 106.999992, y: -25}
-  m_SizeDelta: {x: 90, y: 50}
+  m_AnchoredPosition: {x: -81, y: 67}
+  m_SizeDelta: {x: 142, y: 104}
   m_Pivot: {x: .5, y: .5}
 --- !u!1 &723645378
 GameObject:
@@ -782,8 +780,8 @@ RectTransform:
   m_RootOrder: 9
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: 106.999992, y: -100.000008}
-  m_SizeDelta: {x: 90, y: 50}
+  m_AnchoredPosition: {x: 257, y: -80}
+  m_SizeDelta: {x: 142, y: 104}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &723645380
 MonoBehaviour:
@@ -796,9 +794,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68890ea23f656ea489570a2e52c073df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  info: Polish
+  language: POL
   txtBox: {fileID: 1627172187}
-  Script: {fileID: 959984034}
 --- !u!114 &723645381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -990,8 +987,8 @@ RectTransform:
   m_RootOrder: 3
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: 107, y: 50}
-  m_SizeDelta: {x: 90, y: 50}
+  m_AnchoredPosition: {x: 87, y: 67}
+  m_SizeDelta: {x: 142, y: 104}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &881090856
 MonoBehaviour:
@@ -1004,9 +1001,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68890ea23f656ea489570a2e52c073df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  info: French
+  language: FRE
   txtBox: {fileID: 1627172187}
-  Script: {fileID: 959984034}
 --- !u!114 &881090857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1126,8 +1122,8 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -97, y: 50}
-  m_SizeDelta: {x: 90, y: 50}
+  m_AnchoredPosition: {x: -248, y: 67}
+  m_SizeDelta: {x: 142, y: 104}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &912170723
 MonoBehaviour:
@@ -1140,9 +1136,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68890ea23f656ea489570a2e52c073df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  info: English
+  language: ENG
   txtBox: {fileID: 1627172187}
-  Script: {fileID: 959984034}
 --- !u!114 &912170724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1228,46 +1223,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 912170721}
---- !u!1 &959984033
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 959984035}
-  - 114: {fileID: 959984034}
-  m_Layer: 0
-  m_Name: PerenialObject
-  m_TagString: perennialObject
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &959984034
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 959984033}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c8eb1d607a35484abed73f00d6d3931, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  info: 
---- !u!4 &959984035
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 959984033}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
 --- !u!1 &974860742
 GameObject:
   m_ObjectHideFlags: 0
@@ -1302,8 +1257,8 @@ RectTransform:
   m_RootOrder: 8
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -97, y: -175}
-  m_SizeDelta: {x: 90, y: 50}
+  m_AnchoredPosition: {x: -81, y: -80}
+  m_SizeDelta: {x: 142, y: 104}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &974860744
 MonoBehaviour:
@@ -1316,9 +1271,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68890ea23f656ea489570a2e52c073df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  info: Russian
+  language: POR
   txtBox: {fileID: 1627172187}
-  Script: {fileID: 959984034}
 --- !u!114 &974860745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1510,8 +1464,8 @@ RectTransform:
   m_RootOrder: 7
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: 106.999992, y: -175}
-  m_SizeDelta: {x: 90, y: 50}
+  m_AnchoredPosition: {x: 87, y: -80}
+  m_SizeDelta: {x: 142, y: 104}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1003265621
 MonoBehaviour:
@@ -1524,9 +1478,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68890ea23f656ea489570a2e52c073df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  info: Italian
+  language: ITA
   txtBox: {fileID: 1627172187}
-  Script: {fileID: 959984034}
 --- !u!114 &1003265622
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2006,8 +1959,8 @@ RectTransform:
   m_RootOrder: 6
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -97, y: -100}
-  m_SizeDelta: {x: 90, y: 50}
+  m_AnchoredPosition: {x: -248, y: -80}
+  m_SizeDelta: {x: 142, y: 104}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1850334615
 MonoBehaviour:
@@ -2020,9 +1973,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68890ea23f656ea489570a2e52c073df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  info: Russian
+  language: RUS
   txtBox: {fileID: 1627172187}
-  Script: {fileID: 959984034}
 --- !u!114 &1850334616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2144,7 +2096,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 3c02469cf881344eca82fe0d23e29526, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 71ca1160d742377419ae00d6fa76f086, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

@@ -4,59 +4,46 @@ using UnityEngine.UI;
 
 public class GetLanguage : MonoBehaviour {
 
-    public Text txtBox;                     //UI Image to set the Perennial Info from last scene
-    public Image titleImg;                  //UI Image to set the Sprite Corresponding to the Title Translated
-    public GameObject perennialobject;      //this will get the Perennial Info from last scene
-    public perennialInfo Script;            //this helps to store the the Perennial Info from last scene
-    public perennialInfo Info2pass;         //this one stores the the Perennial Info to pass it to the lvl1
+    public Image TranslationImg;                  //UI Image to set the Sprite Corresponding to the Title Translated
 
-
-    // --- Sprites with the game title for each language
-    #region
-    public Sprite TitleEng;
-    public Sprite TitleSpa;
-    public Sprite TitleRus;
-    public Sprite TitleFre;
-    public Sprite TitleGer;
-    public Sprite TitleIta;
-    public Sprite TitlePor;
-    public Sprite TitlePol;
+    #region Tranlation SpritesTranslation
+    public Sprite TranslationEng;
+    public Sprite TranslationSpa;
+    public Sprite TranslationRus;
+    public Sprite TranslationFre;
+    public Sprite TranslationGer;
+    public Sprite TranslationIta;
+    public Sprite TranslationPor;
+    public Sprite TranslationPol;
     #endregion
 
-    void Awake()
+    void Start()
     {
-        perennialobject = GameObject.FindGameObjectsWithTag("perennialObject")[0] as GameObject;    // asigns the Perennial Info from last scene
-        Script = perennialobject.GetComponent<perennialInfo>();                                     //stores the the Perennial Info from last scene
-        txtBox.text = Script.info;                                                                  //this is a debug thing I used to check that the Perennial info was passed properly
-        Info2pass.info = Script.info;             //passes the info to the perennial Object
-        switch (Script.info)                    // This switch calls the corresponding sprite to the language selected
-        { 
-            case "English":
-                titleImg.sprite = TitleEng;
-                //txtBox.text = "Die Next Day";
-            break;
-            case "Spanish":
-                titleImg.sprite = TitleSpa;
+        switch (PlayerPrefs.GetString("Country", "ENG")                    // This switch calls the corresponding sprite to the language selected
+        {
+            case "ENG":
+                TranslationImg.sprite = TranslationEng;
                 break;
-            case "Russian":
-                titleImg.sprite = TitleRus;
+            case "SPA":
+                TranslationImg.sprite = TranslationSpa;
                 break;
-            case "French":
-                titleImg.sprite = TitleFre;
-                //txtBox.text = "Survivez Un Autre Jour";
+            case "RUS":
+                TranslationImg.sprite = TranslationRus;
                 break;
-            case "German":
-                titleImg.sprite = TitleGer;
-                //txtBox.text = "Überlieben Bis Morgen";
+            case "FRE":
+                TranslationImg.sprite = TranslationFre;
                 break;
-            case "Polish":
-                titleImg.sprite = TitlePol;
+            case "GER":
+                TranslationImg.sprite = TranslationGer;
                 break;
-            case "Italian":
-                titleImg.sprite = TitleIta;
+            case "POL":
+                TranslationImg.sprite = TranslationPol;
                 break;
-            case "Portuguese":
-                titleImg.sprite = TitlePor;
+            case "ITA":
+                TranslationImg.sprite = TranslationIta;
+                break;
+            case "POR":
+                TranslationImg.sprite = TranslationPor;
                 break;
         }
     }
