@@ -15,4 +15,6 @@ public class SetLanguage : MonoBehaviour {
         Script.info = info;             //passes the info to the perennial Object
         Application.LoadLevel("Menu");          // to go to Menu
     }
+
+    
 }

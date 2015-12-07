@@ -1239,7 +1239,7 @@ GameObject:
   - 114: {fileID: 959984034}
   m_Layer: 0
   m_Name: PerenialObject
-  m_TagString: Untagged
+  m_TagString: perennialObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

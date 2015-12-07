@@ -8,6 +8,7 @@ TagManager:
   - CoinHolder
   - BloodParticleSystem
   - GameOverTag
+  - perennialObject
   layers:
   - Default
   - TransparentFX
