@@ -469,7 +469,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 451024, guid: 1009d2791c7ca41df852e5844c279f3d, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11479310, guid: 1009d2791c7ca41df852e5844c279f3d, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -529,6 +529,30 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 11488936, guid: 1009d2791c7ca41df852e5844c279f3d, type: 2}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 21300006, guid: 2e750fef6e5acc34697eeb40d985e568,
+        type: 3}
+    - target: {fileID: 11453550, guid: 1009d2791c7ca41df852e5844c279f3d, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e457e074c1b33f64a8c6dbc3951c1549,
+        type: 3}
+    - target: {fileID: 22457278, guid: 1009d2791c7ca41df852e5844c279f3d, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 120.800003
+      objectReference: {fileID: 0}
+    - target: {fileID: 11435466, guid: 1009d2791c7ca41df852e5844c279f3d, type: 2}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 96b7e222262c8fb49b1493c6b1f2e778,
+        type: 3}
+    - target: {fileID: 11479310, guid: 1009d2791c7ca41df852e5844c279f3d, type: 2}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 21300002, guid: 2e750fef6e5acc34697eeb40d985e568,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1009d2791c7ca41df852e5844c279f3d, type: 2}
   m_IsPrefabParent: 0
