@@ -532,15 +532,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cde453432541e6e4ca9869df991a8302, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  titleImg: {fileID: 0}
-  perennialobject: {fileID: 0}
-  Script: {fileID: 0}
-  Info2pass: {fileID: 0}
-  TitleEng: {fileID: 0}
-  TitleSpa: {fileID: 0}
-  TitleRus: {fileID: 0}
-  TitleFre: {fileID: 0}
-  TitleGer: {fileID: 0}
-  TitleIta: {fileID: 0}
-  TitlePor: {fileID: 0}
-  TitlePol: {fileID: 0}
+  TranslationImg: {fileID: 4772556}
+  TranslationEng: {fileID: 21300000, guid: eaf779ec8fdf2294ba23be79f74c04b5, type: 3}
+  TranslationSpa: {fileID: 21300002, guid: eaf779ec8fdf2294ba23be79f74c04b5, type: 3}
+  TranslationRus: {fileID: 21300004, guid: eaf779ec8fdf2294ba23be79f74c04b5, type: 3}
+  TranslationFre: {fileID: 21300008, guid: eaf779ec8fdf2294ba23be79f74c04b5, type: 3}
+  TranslationGer: {fileID: 21300006, guid: eaf779ec8fdf2294ba23be79f74c04b5, type: 3}
+  TranslationIta: {fileID: 0}
+  TranslationPor: {fileID: 0}
+  TranslationPol: {fileID: 0}

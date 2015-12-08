@@ -19,7 +19,7 @@ public class GetLanguage : MonoBehaviour {
 
     void Start()
     {
-        switch (PlayerPrefs.GetString("Country", "ENG")                    // This switch calls the corresponding sprite to the language selected
+        switch (PlayerPrefs.GetString("Country"))                  // This switch calls the corresponding sprite to the language selected
         {
             case "ENG":
                 TranslationImg.sprite = TranslationEng;

@@ -1,14 +1,16 @@
 fileFormatVersion: 2
-guid: 380879cab22f96e439d20fe3efaad5a8
-timeCreated: 1449496962
+guid: 5f4882a34777e1747959aa619cc3c026
+timeCreated: 1449534924
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Eng_GameOver
-    21300002: Spa_GameOver
-    21300004: Rus_GameOver
-    21300006: Ger_GameOver
-    21300008: Fre_GameOver
+    21300000: ENG_DayCompleted
+    21300002: SPA_DayCompleted
+    21300004: FRE_DayCompleted
+    21300006: GER_DayCompleted
+    21300008: POL_DayCompleted
+    21300010: POR_DayCompleted
+    21300012: RUS_DayCompleted
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -55,53 +57,73 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Eng_GameOver
+    - name: ENG_DayCompleted
       rect:
         serializedVersion: 2
-        x: 32
-        y: 578
-        width: 323
-        height: 60
+        x: 139
+        y: 724
+        width: 539
+        height: 76
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Spa_GameOver
+    - name: SPA_DayCompleted
       rect:
         serializedVersion: 2
-        x: 32
-        y: 450
-        width: 391
-        height: 64
+        x: 70
+        y: 620
+        width: 680
+        height: 77
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Rus_GameOver
+    - name: FRE_DayCompleted
       rect:
         serializedVersion: 2
-        x: 33
+        x: 76
+        y: 534
+        width: 615
+        height: 73
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GER_DayCompleted
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 412
+        width: 630
+        height: 71
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: POL_DayCompleted
+      rect:
+        serializedVersion: 2
+        x: 11
         y: 314
-        width: 471
-        height: 58
+        width: 832
+        height: 73
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Ger_GameOver
+    - name: POR_DayCompleted
       rect:
         serializedVersion: 2
-        x: 41
-        y: 181
-        width: 500
-        height: 66
+        x: 36
+        y: 212
+        width: 841
+        height: 65
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Fre_GameOver
+    - name: RUS_DayCompleted
       rect:
         serializedVersion: 2
-        x: 37
-        y: 40
-        width: 456
-        height: 81
+        x: 137
+        y: 92
+        width: 621
+        height: 84
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}

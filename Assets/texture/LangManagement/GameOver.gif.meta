@@ -1,14 +1,17 @@
 fileFormatVersion: 2
-guid: 5b9f85ae1c35e184cbf5b7dee720dac1
-timeCreated: 1449497040
+guid: 89bc91300199adb4cbb38de38c6e0d0c
+timeCreated: 1449528832
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Eng_DayCompleted
-    21300002: Spa_DayCompleted
-    21300004: Rus_DayCompleted
-    21300006: Ger_DayCompleted
-    21300008: Fre_DayCompleted
+    21300000: ENG_GameOver
+    21300002: SPA_GameOver
+    21300004: FRE_GameOver
+    21300006: GER_GameOver
+    21300008: ITA_GameOver
+    21300010: POR_GameOver
+    21300012: POL_GameOver
+    21300014: RUS_GameOver
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -55,53 +58,83 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Eng_DayCompleted
+    - name: ENG_GameOver
       rect:
         serializedVersion: 2
-        x: 52
-        y: 594
-        width: 413
-        height: 64
+        x: 183
+        y: 907
+        width: 467
+        height: 85
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Spa_DayCompleted
+    - name: SPA_GameOver
       rect:
         serializedVersion: 2
-        x: 46
-        y: 470
-        width: 567
-        height: 68
+        x: 129
+        y: 780
+        width: 570
+        height: 86
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Rus_DayCompleted
+    - name: FRE_GameOver
       rect:
         serializedVersion: 2
-        x: 46
-        y: 334
-        width: 491
-        height: 59
+        x: 80
+        y: 654
+        width: 669
+        height: 95
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Ger_DayCompleted
+    - name: GER_GameOver
       rect:
         serializedVersion: 2
-        x: 52
-        y: 204
-        width: 517
-        height: 60
+        x: 210
+        y: 524
+        width: 406
+        height: 76
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Fre_DayCompleted
+    - name: ITA_GameOver
       rect:
         serializedVersion: 2
-        x: 50
-        y: 61
-        width: 509
-        height: 66
+        x: 116
+        y: 395
+        width: 595
+        height: 81
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: POR_GameOver
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 266
+        width: 490
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: POL_GameOver
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 139
+        width: 471
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RUS_GameOver
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 12
+        width: 818
+        height: 85
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
